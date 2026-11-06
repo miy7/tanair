@@ -1,0 +1,39 @@
+{
+  "name": "v0-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miy7/tanair.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/miy7/tanair/issues"
+  },
+  "homepage": "https://github.com/miy7/tanair#readme",
+  "dependencies": {
+    "better-auth": "^1.7.17",
+    "drizzle-orm": "^0.45.4",
+    "lucide-react": "^1.66.0",
+    "next": "^16.4.3",
+    "pg": "^8.23.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "@types/pg": "^8.23.1",
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}
